@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+       *{
+            margin: 0;
+        }
+        .container{
+            background-color: #1a1b4df1;
+            padding: 16px;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            align-content: center;
+            row-gap: 16px;
+            column-gap: 16px;
+
+        }
+        .caixa1{
+            background-color: #566a83;
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            font-size: 40px;
+            border-radius: 16px;
+        }
+        .caixa2{
+            background-color: #7e7ea7;
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            font-size: 40px;
+            border-radius: 16px;
+        }
+        .caixa3{
+            background-color: #9a98a7;
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            font-size: 40px;
+            border-radius: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="caixa1">1</div>
+        <div class="caixa2">2</div>
+        <div class="caixa3">3</div>
+
+        <div class="caixa1">4</div> 
+        <div class="caixa2">5</div>
+        <div class="caixa3">6</div>
+        
+        <div class="caixa1">7</div>
+        <div class="caixa2">8</div>
+        <div class="caixa3">9</div>
+
+        <div class="caixa1">10</div>
+        <div class="caixa2">11</div>
+        <div class="caixa3">12</div>
+    </main>
+</body>
+</html>
