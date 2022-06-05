@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    background: linear-gradient(to top,rgba(24, 23, 23, 0.7) 10%,rgba(0,0,0,0));
+    color: #fff;
+    height: 60px;
+    align-items: center;
+    
+}
+body{
+    background-color: #090909;
+}
+#pesquisa{
+
+    font-size: 16px;
+    height: 25px;
+    background-color: #000000;
+    border: 1px solid #fff;
+    color: #564d4d;
+    padding-left: 3px;
+}
+.logo{
+    display: flex;
+    padding-right: 10%;
+    margin-right: 0px;
+}
+ul.menu{
+    padding-left: 0px;
+    margin-left: -140px;
+}
+li#navegacao{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: 15px;
+    display: inline;
+    list-style: none;
+}
+main{
+  /*  display: grid;
+    grid-template-columns: 240px 240px 240px 240px 240px;
+*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#banner{
+    position: static;
+    width: 1295px;
+    height: 650px;
+}
+
+.slide1{
+    padding-left: 40px;
+    margin-top: -100px !important;
+    margin-bottom: 80px;
+    height: 130px;
+
+    /*background: linear-gradient(to top,rgba(24, 23, 23, 0.7) 10%,rgba(0,0,0,0));*/
+}
+
+
+.titulo{
+    margin-left: 40px;
+    font-size: 15px;
+    color: #fff;
+    padding-bottom: 8px;
+}
+.slide2{
+    padding-left: 40px;
+    height: 130px;
+
+}
+
+#imagem_slide:hover{
+    position: relative;
+    height: 160px;
+
+}
+#imagem_slide{
+    border-radius: 3px;
+    height: 130px;
+    transition: 0.5s;
+    transition-delay: 0.4s;
+}
+
+
