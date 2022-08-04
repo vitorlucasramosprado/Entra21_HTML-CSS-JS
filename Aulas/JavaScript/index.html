@@ -6,7 +6,7 @@
     <title>Java Script</title>
     <script>
        
-    let multiplicador = prompt("Digite um número: ");
+    /*let multiplicador = prompt("Digite um número: ");
     let multiplicador2 = prompt("Digite o segundo número: ");
         
         while (multiplicador <= multiplicador2) {
@@ -15,10 +15,19 @@
             console.log(multiplicador + "x" + i + "=" + resultado);
             }
             multiplicador++;
-        }
+        } */
+
+        let tabuada = prompt("Digite os valores separados por (;)")
+        tabuada = tabuada.split(";");
 
         
-
+        tabuada.forEach(element => {
+            if(element > 0 && element <=10){
+                for (let index = 1; index < 10; index++){
+                    console.log(element + "x" + index + "=" + element*index);
+                }
+            }
+        });
 
     </script>
 </head>
